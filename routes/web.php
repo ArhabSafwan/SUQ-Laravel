@@ -1,10 +1,14 @@
 <?php
 
+use App\Http\Controllers\LandingPageController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
+
+Route::controller(LandingPageController::class)->group(function () {
+    Route::get('/', 'index')->name('pages.index');
 });
+
+
 
 Route::middleware([
     'auth:sanctum',
@@ -15,3 +19,6 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+
