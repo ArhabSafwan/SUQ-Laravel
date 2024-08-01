@@ -11,7 +11,12 @@ class LandingPageController extends Controller
      */
     public function index()
     {
-        return view('pages.index');
+        return view('ecommerce.index');
+    }
+
+    public function categoryview()
+    {
+        return view('ecommerce.category')->name('ecommerce.category');
     }
 
     /**

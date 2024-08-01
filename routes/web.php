@@ -5,9 +5,9 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::controller(LandingPageController::class)->group(function () {
-    Route::get('/', 'index')->name('pages.index');
+    Route::get('/', 'index');
+    Route::get('/category', 'categoryview')->name('ecommerce.category');
 });
-
 
 
 Route::middleware([
@@ -19,6 +19,3 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
-
-
-

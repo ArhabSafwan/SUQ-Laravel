@@ -2,6 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +23,8 @@
     <meta name="msapplication-TileColor" content="#cc9966">
     <meta name="msapplication-config" content="{{ asset('assets/images/icons/browserconfig.xml') }}">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="{{ asset('assets/vendor/line-awesome/line-awesome/line-awesome/css/line-awesome.min.css') }}">
+    <link rel="stylesheet"
+        href="{{ asset('assets/vendor/line-awesome/line-awesome/line-awesome/css/line-awesome.min.css') }}">
     <!-- Plugins CSS File -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/plugins/owl-carousel/owl.carousel.css') }}">
@@ -77,16 +79,21 @@
 
                     <div class="header-right">
                         <div class="social-icons social-icons-color">
-                            <a href="#" class="social-icon social-facebook" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
-                            <a href="#" class="social-icon social-twitter" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>
-                            <a href="#" class="social-icon social-pinterest" title="Instagram" target="_blank"><i class="icon-pinterest-p"></i></a>
-                            <a href="#" class="social-icon social-instagram" title="Pinterest" target="_blank"><i class="icon-instagram"></i></a>
+                            <a href="#" class="social-icon social-facebook" title="Facebook" target="_blank"><i
+                                    class="icon-facebook-f"></i></a>
+                            <a href="#" class="social-icon social-twitter" title="Twitter" target="_blank"><i
+                                    class="icon-twitter"></i></a>
+                            <a href="#" class="social-icon social-pinterest" title="Instagram" target="_blank"><i
+                                    class="icon-pinterest-p"></i></a>
+                            <a href="#" class="social-icon social-instagram" title="Pinterest" target="_blank"><i
+                                    class="icon-instagram"></i></a>
                         </div><!-- End .soial-icons -->
                         <ul class="top-menu top-link-menu">
                             <li>
                                 <a href="#">Links</a>
                                 <ul>
-                                    <li><a href="#signin-modal" data-toggle="modal"><i class="icon-user"></i>Login</a></li>
+                                    <li><a href="#signin-modal" data-toggle="modal"><i class="icon-user"></i>Login</a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul><!-- End .top-menu -->
@@ -122,15 +129,18 @@
                             <form action="#" method="get">
                                 <div class="header-search-wrapper search-wrapper-wide">
                                     <label for="q" class="sr-only">Search</label>
-                                    <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
-                                    <input type="search" class="form-control" name="q" id="q" placeholder="Search product ..." required>
+                                    <button class="btn btn-primary" type="submit"><i
+                                            class="icon-search"></i></button>
+                                    <input type="search" class="form-control" name="q" id="q"
+                                        placeholder="Search product ..." required>
                                 </div><!-- End .header-search-wrapper -->
                             </form>
                         </div><!-- End .header-search -->
                     </div>
                     <div class="header-center">
                         <a href="index.html" class="logo">
-                            <img src="{{ asset('assets/images/demos/demo-6/logo.png') }}" alt="Molla Logo" width="82" height="20">
+                            <img src="{{ asset('assets/images/demos/demo-6/logo.png') }}" alt="Molla Logo"
+                                width="82" height="20">
                         </a>
                     </div><!-- End .header-left -->
 
@@ -142,7 +152,8 @@
                         </a>
 
                         <div class="dropdown cart-dropdown">
-                            <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+                            <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false" data-display="static">
                                 <i class="icon-shopping-cart"></i>
                                 <span class="cart-count">2</span>
                                 <span class="cart-txt">$ 164,00</span>
@@ -164,10 +175,12 @@
 
                                         <figure class="product-image-container">
                                             <a href="product.html" class="product-image">
-                                                <img src="{{ asset('assets/images/products/cart/product-1.jpg') }}" alt="product">
+                                                <img src="{{ asset('assets/images/products/cart/product-1.jpg') }}"
+                                                    alt="product">
                                             </a>
                                         </figure>
-                                        <a href="#" class="btn-remove" title="Remove Product"><i class="icon-close"></i></a>
+                                        <a href="#" class="btn-remove" title="Remove Product"><i
+                                                class="icon-close"></i></a>
                                     </div><!-- End .product -->
 
                                     <div class="product">
@@ -184,10 +197,12 @@
 
                                         <figure class="product-image-container">
                                             <a href="product.html" class="product-image">
-                                                <img src="{{ asset('assets/images/products/cart/product-2.jpg') }}" alt="product">
+                                                <img src="{{ asset('assets/images/products/cart/product-2.jpg') }}"
+                                                    alt="product">
                                             </a>
                                         </figure>
-                                        <a href="#" class="btn-remove" title="Remove Product"><i class="icon-close"></i></a>
+                                        <a href="#" class="btn-remove" title="Remove Product"><i
+                                                class="icon-close"></i></a>
                                     </div><!-- End .product -->
                                 </div><!-- End .cart-product -->
 
@@ -198,7 +213,8 @@
 
                                 <div class="dropdown-cart-action">
                                     <a href="cart.html" class="btn btn-primary">View Cart</a>
-                                    <a href="checkout.html" class="btn btn-outline-primary-2"><span>Checkout</span><i class="icon-long-arrow-right"></i></a>
+                                    <a href="checkout.html" class="btn btn-outline-primary-2"><span>Checkout</span><i
+                                            class="icon-long-arrow-right"></i></a>
                                 </div><!-- End .dropdown-cart-total -->
                             </div><!-- End .dropdown-menu -->
                         </div><!-- End .cart-dropdown -->
@@ -217,8 +233,8 @@
                                 <li>
                                     <a href="" class="sf-with-ul">Product</a>
                                     <ul>
-                                        <li><a href="category.html">Bags & Luggage</a></li>
-                                        <li><a href="category.html">Belts & Wallets</a></li>
+                                        <li><a href="{{ route('ecommerce.category') }}">Bags & Luggage</a></li>
+                                        <li><a href="{{ route('ecommerce.category') }}">Belts & Wallets</a></li>
                                     </ul>
                                 </li>
                             </ul><!-- End .menu -->
@@ -233,4 +249,3 @@
             </div><!-- End .header-bottom -->
         </header><!-- End .header -->
     </div>
-
