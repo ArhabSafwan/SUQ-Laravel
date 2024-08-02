@@ -236,6 +236,7 @@
                                         <li><a href="{{ route('ecommerce.category') }}">Bags & Luggage</a></li>
                                         <li><a href="{{ route('ecommerce.category') }}">Belts & Wallets</a></li>
                                     </ul>
+
                                 </li>
                             </ul><!-- End .menu -->
                         </nav><!-- End .main-nav -->

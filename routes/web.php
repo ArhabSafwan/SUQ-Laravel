@@ -1,13 +1,18 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\LandingPageController;
 use Illuminate\Support\Facades\Route;
 
 
 Route::controller(LandingPageController::class)->group(function () {
     Route::get('/', 'index');
-    Route::get('/category', 'categoryview')->name('ecommerce.category');
 });
+
+Route::controller(CategoryController::class)->group(function () {
+    Route::get('/category', 'index')->name('ecommerce.category');
+});
+
 
 
 Route::middleware([

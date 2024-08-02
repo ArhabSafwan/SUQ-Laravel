@@ -69,7 +69,7 @@
             <figure class="footer-payments">
                 <img src="{{ asset('assets/images/payments.png') }}" alt="Payment methods" width="272" height="20">
             </figure><!-- End .footer-payments -->
-            <img src="{{ asset('assets/images/demos/demo-6/logo-footer.png') }}" alt="Molla Logo" width="82" height="25">
+            <!-- <img src="{{ asset('assets/images/demos/demo-6/logo-footer.png') }}" alt="Molla Logo" width="82" height="25"> -->
             <p class="footer-copyright">Copyright © 2019 Molla Store. All Rights Reserved.</p>
             <!-- End .footer-copyright -->
         </div><!-- End .container -->
